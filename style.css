@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .intro {
+    padding: 20px;
+    text-align: center;
+    background: #e0f2f1;
+  }
+  
+  .intro .hindi {
+    margin-top: 10px;
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    color: #444;
+  }
+  
+  .subjects {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .subject-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subject-buttons button:hover {
+    background: #00796b;
+  }
+  
+  #year-list {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #year-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #year-list li {
+    margin: 5px 0;
+  }
+  
+  #year-list a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none; }
+    .logo {
+      height: 200px;         /* Image ki height fix */
+      max-width: 300px;     /* Image ki width limit */
+      object-fit: contain;  /* Image crop na ho */
+      margin-right: 100;   /* Thoda space dono ke beech */
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .paper-box {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      width: 300px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    
+    .paper-box h2 {
+      margin-bottom: 20px;
+    }
+    
+    .paper-box .year-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .paper-box .year-list li {
+      margin: 10px 0;
+    }
+    
+    .paper-box .year-list a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    
+    .paper-box .year-list a:hover {
+      color: #0056b3;
+    }
+    .year-button {
+      display: inline-block;
+      margin: 6px;
+      padding: 10px 18px;
+      background-color: #009688;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    
+    .year-button:hover {
+      background-color: #00796b;
+    }
+    .contact-section {
+      padding: 30px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    
+    .contact-section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    
+    .contact-section p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    
+    .contact-section a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    
+    .contact-section a:hover {
+      text-decoration: underline;
+    }
+    nav a {
+      text-decoration: none;
+      padding: 10px 15px;
+      color: #ffffff;
+      transition: 0.3s;
+      border-radius: 5px;
+    }
+    
+    nav a.active {
+      background-color: #31333f;  /* Blue background */
+      color: white;               /* White text */
+      font-weight: bold;
+    }
+    nav a[href="vvi.html"] {
+      color: yellow;
+    }
+    

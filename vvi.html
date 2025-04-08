@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VVI Paid Questions</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+    }
+
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a.active {
+      border-bottom: 2px solid white;
+    }
+
+    .vvi-container {
+      max-width: 1000px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    .vvi-container h2 {
+      color: #004d40;
+      margin-bottom: 30px;
+    }
+
+    .premium-card {
+      display: inline-block;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      background: white;
+      border: 2px solid #00bfa5;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+    }
+
+    .premium-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    }
+
+    .premium-card h3 {
+      margin-bottom: 15px;
+      color: #00796b;
+    }
+
+    .premium-card a {
+      text-decoration: none;
+    }
+
+    .premium-card button {
+      padding: 10px 20px;
+      border: none;
+      background: #00796b;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .premium-card button:hover {
+      background: #004d40;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #004d40;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <img src="jh.png" alt="Jharkhand Polytechnic Logo" class="logo">
+    </div>
+    <h1>VVI Paid Questions</h1>
+    <nav>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="index.html">Home</a>
+      <a href="vvi.html" class="active">VVI Paid Questions</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Premium Subjects -->
+  <section class="vvi-container">
+    <h2>Select Your Premium Subject <br>
+        (ANYLISE + IMPORTANT + 90% MATCH IN EXAME)
+    </h2>
+    
+    <div class="premium-card">
+      <h3>Engineering Math ₹15</h3>
+      <a href="upi://pay?pa=9241360983-d719@ibl&pn=Jharkhand+Polytechnic+Hub&am=15&cu=INR" target="_blank" onclick="window.open('success.math.html')">
+        <button>Buy Now</button>
+      </a>
+    </div>
+
+    <div class="premium-card">
+      <h3>Engineering Physics ₹15</h3>
+      <a href="upi://pay?pa=9241360983-d719@ibl&pn=Jharkhand+Polytechnic+Hub&am=15&cu=INR" target="_blank" onclick="window.open('success.physics.html')">
+        <button>Buy Now</button>
+      </a>
+    </div>
+
+    <div class="premium-card">
+      <h3>Engineering Chemistry ₹10</h3>
+      <a href="upi://pay?pa=9241360983-d719@ibl&pn=Jharkhand+Polytechnic+Hub&am=10&cu=INR" target="_blank" onclick="window.open('success.chemistry.html', '_blank')">
+        <button>Buy Now</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; DeplomaPaper.in | Powered by Student </p>
+  </footer>
+
+</body>
+</html>
